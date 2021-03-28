@@ -1,0 +1,49 @@
+body{
+    background: url(../img/background.jpg);
+}
+
+.container{
+    max-width: 1368px;
+    margin: 0 auto;
+}
+
+.current-floor__block{
+    width: 100px;
+    background-color: black;
+    text-align: center;
+    color: red;
+    font-size: 36px;
+    position: absolute;
+    left: 731px;
+    top: 23px;
+    border: 6px groove #d1d3d2;
+}
+
+#current-floor__span{
+    transition: all 2s ease;
+}
+
+.elevator{
+    display: flex;
+    justify-content: center;
+}
+
+.elevator__img{
+    width: 50%;
+}
+
+.btns{
+    width: 84px;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+}
+
+.floor-btn{
+    width: 40px;
+    padding: 0;
+}
+
+.floor-number{
+    width: 100%;
+}
